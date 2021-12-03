@@ -139,18 +139,12 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
-      {<Users />}
       <h1 style={headingStyles}>
         Congratulations (Commit Testing !!!)
         <br />
-        Second Commit Testing
-        <br />
-        Third Commit Testing
-        <br />
-        Four Commit Testing
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
         <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
+          🎉🎉
         </span>
       </h1>
       <p style={paragraphStyles}>
@@ -160,6 +154,7 @@ const IndexPage = () => {
           😎
         </span>
       </p>
+      {<Users />}
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
